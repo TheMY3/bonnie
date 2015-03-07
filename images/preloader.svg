@@ -1,0 +1,73 @@
+<svg version="1.1" id="squares" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 66.7 65.4" style="enable-background:new 0 0 66.7 65.4;" xml:space="preserve">
+<style type="text/css">
+	.sq0{fill:#D1D3D4;}
+
+	#sq1 { animation: sqoneanim 2s infinite; -webkit-animation: sqoneanim 2s infinite; }
+	#sq2 { animation: sqtwoanim 2s .4s infinite; -webkit-animation: sqtwoanim 2s .4s infinite; }
+	#sq6 { animation: sqthreeanim 2s .8s infinite; -webkit-animation: sqthreeanim 2s .8s infinite; }
+	#sq7 { animation: sqfouranim 2s 1.2s infinite; -webkit-animation: sqfouranim 2s 1.2s infinite; }
+	#sq9 { animation: sqfiveanim 2s 1.6s infinite; -webkit-animation: sqfiveanim 2s 1.6s infinite; }
+
+@-webkit-keyframes sqoneanim {
+    10%  {fill:#f66152; transform:scale(1.1,1.1) translate(-1px,-1px); -webkit-transform:scale(1.1,1.1) translate(-1px,-1px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@keyframes sqoneanim {
+    10%  {fill:#f66152; transform:scale(1.1,1.1) translate(-1px,-1px); -webkit-transform:scale(1.1,1.1) translate(-1px,-1px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@-webkit-keyframes sqtwoanim {
+    10%  {fill:#f1c40f; transform:scale(1.1,1.1) translate(-3px,-1px); -webkit-transform:scale(1.1,1.1) translate(-3px,-1px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@keyframes sqtwoanim {
+    10%  {fill:#f1c40f; transform:scale(1.1,1.1) translate(-3px,-1px); -webkit-transform:scale(1.1,1.1) translate(-3px,-1px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@-webkit-keyframes sqthreeanim {
+    10%  {fill:#3498db; transform:scale(1.1,1.1) translate(-5px,-3px); -webkit-transform:scale(1.1,1.1) translate(-5px,-3px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@keyframes sqthreeanim {
+    10%  {fill:#3498db; transform:scale(1.1,1.1) translate(-5px,-3px); -webkit-transform:scale(1.1,1.1) translate(-5px,-3px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@-webkit-keyframes sqfouranim {
+    10%  {fill:#2ecc71; transform:scale(1.1,1.1) translate(-1px,-5px); -webkit-transform:scale(1.1,1.1) translate(-1px,-5px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@keyframes sqfouranim {
+    10%  {fill:#2ecc71; transform:scale(1.1,1.1) translate(-1px,-5px); -webkit-transform:scale(1.1,1.1) translate(-1px,-5px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@-webkit-keyframes sqfiveanim {
+    10%  {fill:#9b59b6; transform:scale(1.1,1.1) translate(-5px,-5px); -webkit-transform:scale(1.1,1.1) translate(-5px,-5px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+@keyframes sqfiveanim {
+    10%  {fill:#9b59b6; transform:scale(1.1,1.1) translate(-5px,-5px); -webkit-transform:scale(1.1,1.1) translate(-5px,-5px);}
+    13%  {fill:#D1D3D4; transform:scale(1,1) translate(0px,0px); -webkit-transform:scale(1,1) translate(0px,0px)}
+}
+
+
+</style>
+<rect id="sq1" x="2.1" y="2.4" class="sq0" width="18" height="18"/>
+<rect id="sq2" x="24.2" y="2.4" class="sq0" width="18" height="18"/>
+<rect id="sq3" x="46.2" y="2.4" class="sq0" width="18" height="18"/>
+<rect id="sq4" x="2.2" y="24.1" class="sq0" width="18" height="18"/>
+<rect id="sq5" x="24.3" y="24.1" class="sq0" width="18" height="18"/>
+<rect id="sq6" x="46.3" y="24.1" class="sq0" width="18" height="18"/>
+<rect id="sq7" x="2.2" y="45.6" class="sq0" width="18" height="18"/>
+<rect id="sq8" x="24.3" y="45.6" class="sq0" width="18" height="18"/>
+<rect id="sq9" x="46.3" y="45.6" class="sq0" width="18" height="18"/>
+</svg>
