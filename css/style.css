@@ -739,6 +739,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   display: block;
   float: none;
   margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 .about-description p {
@@ -756,7 +757,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   display: block;
   margin: 0 auto;
   float: none;
-  padding: 0 0 58px;
+  padding: 0 0 25px;
   border-bottom: 1px dashed rgba(255, 255, 255, .5);
   width: 140px;
 }
@@ -773,7 +774,8 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   display: block;
   position: relative;
   float: left;
-  margin: 36px 0 0;
+  margin: 20px 0 0;
+  /*margin: 36px 0 0;*/
   padding: 0;
   list-style: none;
 }
@@ -1092,7 +1094,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
 
 .skill-item {
   position: relative;
-  padding-left: 6%;
+  /*padding-left: 6%;*/
   margin-bottom: 24px;
 }
 
@@ -1123,7 +1125,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   padding: 0;
 }
 
-.skills-title:before {
+/*.skills-title:before {
   content: "";
   display: block;
   margin: 24px auto;
@@ -1131,7 +1133,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   padding: 0;
   border-bottom: 1px dashed rgba(255, 255, 255, .5);
   width: 140px;
-}
+}*/
 
 .skills-title h3 {
   display: inline-block;
@@ -1227,43 +1229,46 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   padding: 0;
 }
 
-.portfolio-items ul {
+.donators {
   display: block;
   position: relative;
-  float: left;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.donators ul li {
+  display: block;
+  position: relative;
+  margin: 0 0 30px;
+  padding: 0;
+  /*float: left;*/
   list-style: none;
-  margin: 0 0 58px;
-  padding: 0;
+  -webkit-transition: all .4s linear;
+  -o-transition: all .4s linear;
+  transition: all .4s linear;
 }
 
-.portfolio-items ul li {
+.donators ul li:last-child:after {
+  content: "";
   display: block;
-  float: left;
-  position: relative;
-  list-style: none;
-  width: 33.33333333%;
-  background-color: #fff;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  z-index: 2;
+  margin: 0 auto;
+  float: none;
+  padding: 0 0 25px;
+  border-bottom: 1px dashed rgba(255, 255, 255, .5);
+  width: 140px;
 }
 
-.portfolio-items ul li:after {
-  content:"";
-  position:absolute;
-  width:100%; height:100%;
-  top:0; left:0;
-  background:rgba(255, 255, 255, 0.2);
-}
-
-.portfolio-items ul li img {
+.donators ul li p {
   display: block;
   position: relative;
-  width: 100%;
-  height: auto;
-  margin: 0;
+  text-align: center;
+  /*text-align: left;*/
   padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
 }
 
 .portfolio-description {
@@ -1337,7 +1342,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   border: 1px solid #84c0e9;
   border-radius: 1px;
   list-style: none;
-  min-height: 170px;
+  min-height: 130px;
 }
 
 .quotes ul:before {
@@ -2207,7 +2212,7 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
 @media only screen and (min-width: 1202px) and (max-width: 1367px) {
   .cat-pages-title h2 { font-size: 34px; }
   .quotes { margin-bottom: 24px; }
-  .quotes ul { min-height: 180px; }
+  .quotes ul { min-height: 130px; }
   .quotes ul:before { padding-left: 12px; }
   .blog ul li .blog-image { margin-bottom: 30px; }
   .contact-form form input[type="submit"] { margin-bottom: 24px; }
@@ -2241,14 +2246,14 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .timeline ul li h4 { font-size: 14px; }
   .timeline ul li p { font-size: 13px; letter-spacing: 0.01em; margin-top: 4px; }
   .timeline-right ul li p { margin-top: 4px; }
-  .skill-item { padding-left: 12%; }
+  /*.skill-item { padding-left: 12%; }*/
   .skill-item input[type="text"] { font-size: 21px; }
   .skill-item h5 { font-size: 15px; }
   .portfolio-fliter ul li { font-size: 14px; }
   .portfolio-description h3 { font-size: 13px; letter-spacing: 0.06em; line-height: 19px; }
   .portfolio-description p { font-size: 11px; letter-spacing: 0.02em; line-height: 16px; }
   .quotes { margin-bottom: 24px; }
-  .quotes ul { min-height: 200px;  }
+  .quotes ul { min-height: 140px;  }
   .quotes ul li { font-size: 13px; }
   .quotes ul:before { padding-left: 12px; }
   .blog ul li .blog-image { width: 146px; height: 130px; margin-bottom: 8px; }
@@ -2379,7 +2384,7 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .portfolio-description h3 { font-size: 13px; letter-spacing: 0.06em; line-height: 19px; }
   .portfolio-description p { font-size: 11px; letter-spacing: 0.02em; line-height: 16px; }
   .quotes { margin-bottom: 24px; }
-  .quotes ul { min-height: 200px;  }
+  .quotes ul { min-height: 140px;  }
   .quotes ul li { font-size: 13px; line-height: 19px; }
   .quotes ul:before { padding-left: 12px; }
   .blog ul li .blog-image { width: 146px; height: 130px; display: block; float: none; margin: 0 auto 20px; }
