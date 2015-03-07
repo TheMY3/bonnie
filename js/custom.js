@@ -460,25 +460,25 @@
 
 
 		// BLOG
-		 $(function() {
+		 // $(function() {
 
-		 	"use strict";
+		 // 	"use strict";
 
-			 $('.blog ul li').hover(
-			     function () {
+			//  $('.blog ul li').hover(
+			//      function () {
 
-					$('.blog ul li').not(this).css("opacity", ".5");
-					$(this).find('img').css("opacity", ".6");
+			// 		$('.blog ul li').not(this).css("opacity", ".5");
+			// 		$(this).find('img').css("opacity", ".6");
 
-			     }, 
-			     function () {
+			//      }, 
+			//      function () {
 
-			     	$('.blog ul li').css("opacity", "1");
-			     	$(this).find('img').css("opacity", ".8");
+			//      	$('.blog ul li').css("opacity", "1");
+			//      	$(this).find('img').css("opacity", ".8");
 
-			     }
-			 	);
-		 });
+			//      }
+			//  	);
+		 // });
 
 
 
