@@ -151,6 +151,10 @@ h6 {
   width: auto !important;
   text-align: center !important;
 }
+
+.completted {
+  text-decoration: line-through;
+}
 /**
  * ----------------------------------------------------------------------------------------
  * 02. MAIN SECTION
