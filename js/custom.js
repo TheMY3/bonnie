@@ -553,25 +553,25 @@
 		        },
 		        messages: {
 		            name: {
-		                required: "Please Enter Your Name",
-		                minlength: "your name must consist of at least 2 characters"
+		                required: "Введите Ваше имя",
+		                minlength: "Имя должно состоять минимум из 2х символов!"
 		            },
 		            email: {
-		                required: "Please Enter Your Email Address"
+		                required: "Введите Ваш Email"
 		            },
 		            subject: {
-		                required: "Please Enter Your Message Subject"
+		                required: "Введите Тему сообщение"
 		            },
 		            message: {
-		                required: "Please Enter Your Message.",
-		                minlength: "Your Message Is Too Long!"
+		                required: "Введите сообщение",
+		                minlength: "Сообщение слишком длинное!"
 		            },
 		        },
 		        submitHandler: function(form) {
 		            $(form).ajaxSubmit({
 		                type:"POST",
 		                data: $(form).serialize(),
-		                url:"contact.php",
+		                url:"mailer.php",
 		                success: function() {
 		                    $('#contactform').clearForm();
 		                    $('#cf-success').css("display", "block").css("opacity", "1");
