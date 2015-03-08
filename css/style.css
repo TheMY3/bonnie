@@ -155,6 +155,19 @@ h6 {
 .completted {
   text-decoration: line-through;
 }
+
+.copyright {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.copyright a {
+  color: #000;
+  opacity: 0.4;
+}
+.copyright a:hover {
+  opacity: 1;
+}
 /**
  * ----------------------------------------------------------------------------------------
  * 02. MAIN SECTION
