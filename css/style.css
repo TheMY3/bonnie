@@ -143,7 +143,7 @@ h6 {
 }
 
 .twitch_chat {
-  margin-left: 16px;
+  /*margin-left: 16px;*/
 }
 
 .chart-circle {
@@ -2282,23 +2282,23 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .contact-form form textarea { font-size: 12px;}
   .contact-form form input[type="submit"] { font-size: 12px; padding: 4px 22px; }
 
-  .twitch_player {
+/*  .twitch_player {
       margin-left: 22px;
   }
   .twitch_chat {
     margin-left: 21px;
     width: 480px;
-  }
+  }*/
 }
 
 @media only screen and (min-width: 1281px) and (max-width: 1366px) {
-  .twitch_player {
+/*  .twitch_player {
       margin-left: 39px;
   }
   .twitch_chat {
     margin-left: 39px;
     width: 480px;
-  }
+  }*/
 }
 
 @media only screen and (min-width: 1202px) and (max-width: 1367px) {
