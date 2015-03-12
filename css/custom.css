@@ -87,10 +87,7 @@ li#blog-link a.nav-current h3,
 #blog,
 #blog .cat-pages-title h2,
 .blog-single-title h2 {
-  background-color: #2cc16b;
-}
-.ajax-popup {
-  background-color: #2cc16b;
+  background-color: #3498db;
 }
 .single-blog-page .menu a:hover {
   color: #2cc16b;

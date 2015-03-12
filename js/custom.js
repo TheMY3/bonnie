@@ -387,15 +387,18 @@
 		        $(this).parent().addClass('current');
 		         
 		        var filterVal = $(this).text().toLowerCase().replace(' ','-');
-
-		        if(filterVal == 'all') {
-	            $('.portfolio-items ul li iframe.phidden').css("opacity", "1").removeClass('phidden');
+		        console.log(filterVal);
+		        if(filterVal == 'все') {
+	            	$('ul.video-list li').css("opacity", "1");
+	            	// $('ul.video-list li').show(1000);
 		        } else {
-		            $('.portfolio-items ul li iframe').each(function() {
-		                if(!$(this).hasClass(filterVal)) {
-		                    $(this).css("opacity", ".2").addClass('phidden');
+		            $('ul.video-list li').each(function() {
+		                if($(this).attr("data-sortable") != filterVal) {
+		                    $(this).css("opacity", ".2");
+		                    // $(this).hide(1000);
 		                } else {
-		                    $(this).css("opacity", "1").removeClass('phidden');
+		                    $(this).css("opacity", "1");
+		                    // $(this).show(1000);
 		                }
 		            });
 		        }

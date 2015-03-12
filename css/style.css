@@ -1356,6 +1356,7 @@ li#contact-link a.nav-current h3, #contact-link a.nav-current i {
   border-radius: 1px;
   list-style: none;
   min-height: 130px;
+    margin-left: 45px;
 }
 
 .quotes ul:before {
@@ -1513,7 +1514,7 @@ ul.bjqs-controls.v-centered li a{position:absolute;}
 ul.bjqs-controls.v-centered li.bjqs-next a{right:0;}
 ul.bjqs-controls.v-centered li.bjqs-prev a{left:0;}
 ol.bjqs-markers{list-style: none; padding: 0; margin: -12px 0 0; width:100%;}
-ol.bjqs-markers.h-centered{text-align: center;}
+ol.bjqs-markers.h-centered{text-align: center;   margin-left: 25px;}
 ol.bjqs-markers li {display:inline-block; list-style: none; float: none; margin: 0 4px; padding: 0;}
 ol.bjqs-markers li a {content: ""; display:block; width: 10px; height: 10px; background-color: #84c0e9; padding: 0; margin: 0;}
 ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; margin: 0 4px -2px;}
@@ -1638,7 +1639,7 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
 }
 
 .ajax-popup {
-  background-color: #2cc16b;
+  background-color: #3498db;
   display: block;
   float: none;
   margin: 36px auto;
@@ -2244,7 +2245,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   padding-right: 8px;
  }
  
-
 @media only screen and (min-width: 1442px) and (max-width: 1610px) {
   .iconbox ul li i { height: 110px; }
   .portfolio-fliter ul li { font-size: 16px; }
@@ -2408,7 +2408,7 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .container { width: 100%; }
   .blog-list .cat-left-0 { left: auto !important; }
   .active-page { display: block !important; position: relative !important; height: auto !important; float: left !important; padding: 0; margin: 0; overflow-y: auto !important; }
-
+.video-item { height: 230px;}
   .twitch_player {
       margin-left: 0;
       width: 100%;
@@ -2472,7 +2472,6 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .skill-item h5 { font-size: 15px; }
   .portfolio-fliter ul li { font-size: 14px; padding-bottom: 4px; margin: 0 24px 18px; }
   .portfolio-fliter ul li:after { margin-right: -28px; }
-  .portfolio-items ul li { width: 50%; }
   .portfolio-description h3 { font-size: 13px; letter-spacing: 0.06em; line-height: 19px; }
   .portfolio-description p { font-size: 11px; letter-spacing: 0.02em; line-height: 16px; }
   .quotes { margin-bottom: 24px; }
@@ -2508,7 +2507,7 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   .menu { display: none; }
   #responsive-menu, .responsive-menu-disable { display: none; visibility: visible; opacity: 1; }
   .active-page { display: block !important; position: relative !important; height: auto !important; float: left !important; padding: 0; margin: 0; overflow-y: auto !important; }
-
+  .video-item { width: 90% !important; height: 338px !important;}
   .twitch_player {
       margin-left: 0;
       width: 100%;
@@ -2519,6 +2518,26 @@ ol.bjqs-markers li.active-marker { border: 1px solid #84c0e9; padding: 1px; marg
   }
 }
 
+@media only screen and (max-width: 480px) {
+  .video-item { width: 90% !important; height: 240px !important;}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .video-item { width: 90% !important; height: 240px !important;}
+}
+
 #youtube, #youtube .cat-pages-title h2 {
-  background-color: #337ab7;
+  background-color: #2cc16b;
+}
+
+.video-list {
+  list-style: none;
+}
+.video-item {
+  display: block;
+  float: left;
+  width: 49%;
+  margin: 0;
+  padding: 1px;
+    height: 225px;
 }
