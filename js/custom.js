@@ -389,9 +389,9 @@
 		        var filterVal = $(this).text().toLowerCase().replace(' ','-');
 
 		        if(filterVal == 'all') {
-	            $('.portfolio-items ul li img.phidden').css("opacity", "1").removeClass('phidden');
+	            $('.portfolio-items ul li iframe.phidden').css("opacity", "1").removeClass('phidden');
 		        } else {
-		            $('.portfolio-items ul li img').each(function() {
+		            $('.portfolio-items ul li iframe').each(function() {
 		                if(!$(this).hasClass(filterVal)) {
 		                    $(this).css("opacity", ".2").addClass('phidden');
 		                } else {
