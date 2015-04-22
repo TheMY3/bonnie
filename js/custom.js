@@ -26,13 +26,13 @@
 	 		"use strict";
 
 		    $('a.page-scroll').bind('click', function(event) {
-
+		    	event.preventDefault();
 		    	var contentWrap = $("#content-wrap");
 		    	var catPages = $(".cat-pages");
 		    	var sectionId = $(this).attr('href');
 		    	var rmenu = $('#responsive-menu');
 		    	var ascroll = $('a.page-scroll');
-		        
+
 		    	$("#content-wrap, .cat-pages").getNiceScroll().hide(0).resize();
 		    	ascroll.removeClass('nav-current');
 		    	$(this).addClass('nav-current');
